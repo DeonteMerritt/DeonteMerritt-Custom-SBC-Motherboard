@@ -1,2 +1,4 @@
 # DeonteMerritt-Custom-SBC-Motherboard
-This file represents an industry-standard, KiCad-compatible PCB footprint definition for the Linear Technology LTC2950-1 Smart Power Path Controller. This electronic footprint contains the absolute geometric, mechanical, and layer-stack boundaries required to integrate physical power-management silicon onto your custom single-board PC motherboard.
+This file is a KiCad-compatible TSOT-23-8 PCB footprint for the Linear Technology/Analog Devices LTC2950-1 pushbutton on/off controller. It defines eight surface-mount solder pads, pad numbering, component outlines, and placement boundaries for integrating the chip into a custom PC motherboard.
+
+Potential uses include humanoid robot control boards, robotic arm controllers, rover electronics, drone companion-computer power boards, embedded computers, handheld devices, and the Merritt Console M-1. With compatible circuitry and software, the controller supports power-button operation and signals the processor to prepare for shutdown. The footprint is part of a complete PCB design and requires verification against the selected chip’s datasheet before manufacturing.
